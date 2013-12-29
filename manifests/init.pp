@@ -12,6 +12,6 @@ class cisco_anyconnect($version='3.1.04063')
 {
   package { "anyconnect-macosx-${version}-web-deploy-k9.dmg":
     provider => 'pkgdmg',
-    source   => "http://turbo.edmunds.com/CACHE/stc/2/binaries/anyconnect-macosx-${version}-web-deploy-k9.dmg"
+    source   => "https://dl.dropboxusercontent.com/u/41445/anyconnect-macosx-${version}-web-deploy-k9.dmg"
   }
 }
